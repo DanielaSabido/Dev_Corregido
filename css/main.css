@@ -63,19 +63,19 @@ h1,h2,h3{
     font-size: 2rem;
 }
 
-
+/*
 .navegacion-principal{
     background-color: var(--secundario);
 
 }
-
+*/
 /*Esto es dentro del nav, la clase la llamamos navegacion-principal contenedor*/
 .contenedor{
     width: 120rem;
-    margin-top: 0;
+    /*margin-top: 0;
     margin-right: auto;
     margin-bottom: 0;
-    margin-left: auto;
+    margin-left: auto;*/
     margin: 0 auto;
 
 }
@@ -157,37 +157,42 @@ h1,h2,h3{
     text-transform: uppercase; /*Transformo las letras en mayusculas*/
     text-align: center;
     width: 90%;
-    border: none;   
- } 
-    .boton:hover{
-        cursor: pointer;
-    }
+    border: none;
+ }
 
-    .servicio{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    h3{ 
-        color: var(--secundario);
-        font-weight: normal;
-    }
+ .boton:hover{
+    cursor: pointer;
+ }
 
-    p{
-        line-height: 2; /*Interlineado*/
-        text-align: center;
-    }
+ 
 
-    .iconos{
-        height: 15rem;
-        width: 15rem;
-        background-color: var(--primario);
-        border-radius: 50%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-}
+ .servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+ }
+
+ .servicio h3{ 
+    color: var(--secundario);
+    font-weight: normal;
+ }
+
+ .servicio p{
+    line-height: 2; /*Interlineado*/
+    text-align: center;
+ }
+
+ .servicio .iconos{
+    height: 15rem;
+    width: 15rem;
+    background-color: var(--primario);
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
  .formulario{
     background-color: var(--gris);
     width: min(60rem, 100%);
